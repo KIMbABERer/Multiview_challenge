@@ -30,23 +30,40 @@ h2 {
 .employees ul {
 	padding: 0px;
 }
-
+.navbar{
+	background-color: rgb(91,192,222);
+	width:120%;
+	height:50px;
+	/*border:1px solid red;*/
+	/*box-sizing: border-box;*/
+	padding:0;
+	margin:0;
+	position:fixed;
+	top:0px;
+	left:0px;
+}
 .navbar ul
 {
 	list-style: none;
 }
 .navbar li{
-	height:30px;
-	line-height: 30px;
+	/*height:30px;*/
+	line-height: 50px;
 	min-width: 100px;
 	float:left;
 	/*border:1px solid red;*/
 	text-align: center;
 	padding:0 10px;
+	box-sizing: border-box;
+	
 }
 .navbar a{
-	font-size:16pt;
-	color:white;	
+	font-size:18pt;
+	color:white;
+	height:50px;	
+}
+.banner{
+	margin-top:50px;
 }
 .banner img{
 	width:100%;
@@ -58,4 +75,3 @@ h2 {
 .employees li:hover .photo{
 	visibility:visible;
 }
-
