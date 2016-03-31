@@ -1,6 +1,7 @@
 body {
 	background-image: url("../img/lego_BG.png");
 	background-repeat: repeat;
+	font-size: 30px;
 }
 
 h2 {
@@ -9,27 +10,43 @@ h2 {
 	font-stretch: 50px;
 	text-align: center;
 	border-color: 2px solid lightskyblue;
-	color: white;
+	color: moccasin;
+}
+
+li {
+	color:moccasin;
+	margin-left: 90px; 
+	padding-left: 5px;
+} 
+
+img {
+	border: 3px solid black;
 }
 
 .employees li {
-	padding: 0px auto;
+	padding: auto;
 	margin: 50px;
-	border: 1px solid white;
-	
 }
 
-.employees div {
+a {
+	color:moccasin;
+	display: inline-block;
+	width: 50px;
+}
+
+.employees {
 	text-align: center;
 	/*margin-left: 50%;
 	margin-right: 50%;*/
 	font-style: oblique;
 	font-size: 30px;
+	display: inline;
 }
 
 .employees ul {
 	padding: 0px;
 }
+<<<<<<< Updated upstream
 .navbar{
 	background-color: rgb(91,192,222);
 	width:120%;
@@ -42,6 +59,10 @@ h2 {
 	top:0px;
 	left:0px;
 }
+=======
+
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
 .navbar ul
 {
 	list-style: none;
@@ -59,7 +80,7 @@ h2 {
 }
 .navbar a{
 	font-size:18pt;
-	color:white;
+	color:moccasin;
 	height:50px;	
 }
 .banner{
@@ -74,4 +95,8 @@ h2 {
 }
 .employees li:hover .photo{
 	visibility:visible;
+=======
+hr {
+	outline-width: 2px;
+>>>>>>> Stashed changes
 }
