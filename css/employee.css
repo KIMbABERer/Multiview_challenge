@@ -1,0 +1,29 @@
+.others{
+	position:relative;
+	float:right;
+	bottom:375px;
+}
+
+.othersbanner{
+	background-color:rgb(91,192,222);
+	color:white;
+	border-radius:10px;
+	display:inline-block;
+	padding-left: 25px;
+	padding-right: 25px;
+	height:35px;
+	line-height: 35px;
+	position:relative;
+
+}
+
+.link{
+	text-align: center;
+	margin: 10px;
+}
+
+.biotext{
+	height: 250px;
+	width: 550px;
+	display:inline-block;
+}
