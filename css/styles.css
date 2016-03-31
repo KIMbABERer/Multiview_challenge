@@ -1,19 +1,37 @@
-
+body {
+	background-image: url("../img/lego_BG.png");
+	background-repeat: repeat;
+}
 
 h2 {
 	font-size: 100px;
 	font-style: serif;
 	font-stretch: 50px;
 	text-align: center;
+	border-color: 2px solid lightskyblue;
+	color: white;
 }
 
 li {
 	padding: 0px auto;
+	margin: 50px;
+	border: 1px solid white;
+	
 }
 
 div {
-	margin-top: 20px;
-	margin-left: 50%;
+	text-align: center;
+	/*margin-left: 50%;
+	margin-right: 50%;*/
 	font-style: oblique;
 	font-size: 30px;
+	color: white;
+}
+
+ul {
+	padding: 0px;
+}
+
+.one,.two,.three{
+	color: white;
 }
