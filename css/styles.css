@@ -12,26 +12,23 @@ h2 {
 	color: white;
 }
 
-li {
+.employees li {
 	padding: 0px auto;
 	margin: 50px;
 	border: 1px solid white;
 	
 }
 
-div {
+.employees div {
 	text-align: center;
 	/*margin-left: 50%;
 	margin-right: 50%;*/
 	font-style: oblique;
 	font-size: 30px;
-	color: white;
 }
 
-ul {
+.employees ul {
 	padding: 0px;
 }
 
-.one,.two,.three{
-	color: white;
-}
+
