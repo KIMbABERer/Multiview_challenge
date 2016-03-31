@@ -1,0 +1,19 @@
+
+
+h2 {
+	font-size: 100px;
+	font-style: serif;
+	font-stretch: 50px;
+	text-align: center;
+}
+
+li {
+	padding: 0px auto;
+}
+
+div {
+	margin-top: 20px;
+	margin-left: 50%;
+	font-style: oblique;
+	font-size: 30px;
+}
