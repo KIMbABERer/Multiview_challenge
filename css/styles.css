@@ -99,7 +99,11 @@ a {
 	visibility:hidden;
 	margin-left:20px;
 }
-.employees li:hover .photo{
+/*.employees li:hover .photo{
+	visibility:visible;
+}
+*/
+.photoonhover:hover{
 	visibility:visible;
 }
 
